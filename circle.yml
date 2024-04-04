@@ -1,0 +1,27 @@
+machine:
+  environment:
+    IMPORT_PATH: "/home/ubuntu/.go_workspace/src/github.com/CityOfZion"
+    APP_PATH: "$IMPORT_PATH/neo-go-sdk"
+
+dependencies:
+  override:
+    - sudo add-apt-repository ppa:masterminds/glide -y
+    - sudo apt-get update
+    - sudo apt-get install glide -y
+
+test:
+  pre:
+    - mkdir -p "$IMPORT_PATH"
+    - ln -sf "$(pwd)" "$APP_PATH"
+    - cd "$APP_PATH" && glide install
+  override:
+    - cd "$APP_PATH" && make test
+    - cd "$APP_PATH" && make vet
+    - cd "$APP_PATH" && make build-cli
+    - cd "$APP_PATH" && ./neo-go-sdk --wif KxQREAjBL6Ga8dw9rPN45pwoZ5dxhAQacEajQke6qmpB7DW6nAWE
+
+deployment:
+  feature-branch:
+    branch: /^((?!master).)*$/
+    commands:
+      - make check-version
