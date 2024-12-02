@@ -7,7 +7,7 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"github.com/CityOfZion/neo-go-sdk/neo/models/request"
+	"github.com/epicchainlabs/epicchain-go-sdk/neo/models/request"
 )
 
 func executeRequest(method string, bodyParameters []interface{}, nodeURI string, model interface{}) error {

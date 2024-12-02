@@ -23,7 +23,7 @@
 ## Quick Start
 
 ```
-go get github.com/epicchainlabs/epicchain-go-sdk
+go get github.com/github.com/epicchainlabs/epicchain-go-sdk
 ```
 
 ```golang
@@ -32,7 +32,7 @@ package main
 import (
   "log"
 
-  "github.com/epicchainlabs/epicchain-go-sdk/epicchain"
+  "github.com/github.com/epicchainlabs/epicchain-go-sdk/epicchain"
 )
 
 func main() {
@@ -68,11 +68,11 @@ Make use of the **epicchain-go-sdk** CLI to help with this process:
 ./epicchain-go-sdk --wif KxQREAjBL6Ga8dw9rPN45pwoZ5dxhAQacEajQke6qmpB7DW6nAWE
 ```
 
-This will output the **full details** about the key pair. See [releases](https://github.com/epicchainlabs/epicchain-go-sdk/releases) to download the CLI.
+This will output the **full details** about the key pair. See [releases](https://github.com/github.com/epicchainlabs/epicchain-go-sdk/releases) to download the CLI.
 
 ## Help
 
-- Open a new [issue](https://github.com/epicchainlabs/epicchain-go-sdk/issues/new) if you encountered a problem.
+- Open a new [issue](https://github.com/github.com/epicchainlabs/epicchain-go-sdk/issues/new) if you encountered a problem.
 - Submitting PRs to the project is always welcome! 🎉
-- Check the [Changelog](https://github.com/CityOfZion/neo-go-sdk/blob/master/CHANGELOG.md) for recent changes.
+- Check the [Changelog](https://github.com/epicchainlabs/epicchain-go-sdk/blob/master/CHANGELOG.md) for recent changes.
 

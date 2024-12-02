@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/CityOfZion/neo-go-sdk/utility"
+	"github.com/epicchainlabs/epicchain-go-sdk/utility"
 	"golang.org/x/crypto/ripemd160"
 )
 

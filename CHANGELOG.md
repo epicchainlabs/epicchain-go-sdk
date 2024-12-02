@@ -9,7 +9,7 @@ project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 ### Fixed
 
-- [#23](https://github.com/CityOfZion/neo-go-sdk/issues/23) fixed, now returns an error from `ModularArithmetic#Sqrt`.
+- [#23](https://github.com/epicchainlabs/epicchain-go-sdk/issues/23) fixed, now returns an error from `ModularArithmetic#Sqrt`.
 
 ## v1.9.0 - 2018-01-22
 
@@ -125,7 +125,7 @@ log.Println(publicKey)
 
 ### Added
 
-- CLI for debugging a NEO public and private key pair (see [releases](https://github.com/CityOfZion/neo-go-sdk/releases)):
+- CLI for debugging a NEO public and private key pair (see [releases](https://github.com/epicchainlabs/epicchain-go-sdk/releases)):
 
 ```
 ./neo-go-sdk --wif KxQREAjBL6Ga8dw9rPN45pwoZ5dxhAQacEajQke6qmpB7DW6nAWE

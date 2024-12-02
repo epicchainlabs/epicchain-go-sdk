@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/CityOfZion/neo-go-sdk/neo"
+	"github.com/epicchainlabs/epicchain-go-sdk/neo"
 	"github.com/stretchr/testify/assert"
 )
 

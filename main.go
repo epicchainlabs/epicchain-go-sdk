@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/CityOfZion/neo-go-sdk/neo"
+	"github.com/epicchainlabs/epicchain-go-sdk/neo"
 )
 
 func main() {

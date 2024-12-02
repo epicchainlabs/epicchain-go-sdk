@@ -7,8 +7,8 @@ import (
 	"net"
 	"net/url"
 
-	"github.com/CityOfZion/neo-go-sdk/neo/models"
-	"github.com/CityOfZion/neo-go-sdk/neo/models/response"
+	"github.com/epicchainlabs/epicchain-go-sdk/neo/models"
+	"github.com/epicchainlabs/epicchain-go-sdk/neo/models/response"
 )
 
 type (

@@ -1,4 +1,4 @@
-package: github.com/CityOfZion/neo-go-sdk
+package: github.com/epicchainlabs/epicchain-go-sdk
 import: []
 testImport:
 - package: github.com/stretchr/testify

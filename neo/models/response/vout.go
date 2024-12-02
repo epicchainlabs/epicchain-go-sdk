@@ -1,6 +1,6 @@
 package response
 
-import "github.com/CityOfZion/neo-go-sdk/neo/models"
+import "github.com/epicchainlabs/epicchain-go-sdk/neo/models"
 
 type (
 	// Vout represents the JSON schema of a response from a NEO node, where the expected

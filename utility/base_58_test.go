@@ -4,7 +4,7 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/CityOfZion/neo-go-sdk/utility"
+	"github.com/epicchainlabs/epicchain-go-sdk/utility"
 	"github.com/stretchr/testify/assert"
 )
 
